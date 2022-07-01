@@ -119,7 +119,7 @@ jobs:
         with:
           ref: 'refs/heads/auto-header-update'
           path: 'SML'
-          repository: 'satisfactorymodding/SatisfactoryModLoader'
+          repository: 'porisius/SatisfactoryModLoader'
           token: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Checkout satisfactory-modding

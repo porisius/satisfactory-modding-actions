@@ -106,7 +106,7 @@ jobs:
         with:
           ref: 'refs/heads/${{ inputs.branch }}'
           path: 'satisfactory-modding'
-          repository: 'mircearoata/satisfactory-modding'
+          repository: 'porisius/satisfactory-modding'
           token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Add msbuild to PATH
