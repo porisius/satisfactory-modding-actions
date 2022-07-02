@@ -57,7 +57,7 @@ jobs:
         with:
           ref: 'refs/heads/${{ inputs.branch }}'
           path: 'satisfactory-modding'
-          repository: 'mircearoata/satisfactory-modding'
+          repository: 'porisius/satisfactory-modding'
 
       - name: Read current repo version
         id: currentHeadersVersion

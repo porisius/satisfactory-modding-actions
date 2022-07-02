@@ -57,7 +57,7 @@ jobs:
         with:
           ref: 'refs/heads/${{ inputs.branch }}'
           path: 'satisfactory-modding'
-          repository: 'mircearoata/satisfactory-modding'
+          repository: 'porisius/satisfactory-modding'
       
       - name: Checkout SML
         uses: actions/checkout@v2
@@ -127,7 +127,7 @@ jobs:
         with:
           ref: 'refs/heads/${{ inputs.branch }}'
           path: 'satisfactory-modding'
-          repository: 'mircearoata/satisfactory-modding'
+          repository: 'porisius/satisfactory-modding'
       
       - name: Checkout satisfactory-modding-actions
         uses: actions/checkout@v2
